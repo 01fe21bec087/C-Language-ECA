@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+  int a, b, sum;
+  clrscr();
+  printf ("\n Enter two numbers to add: ");
+  scanf ("%d%d", &a, &b);
+  sum=a+b;
+  printf ("\n The sum is %d", sum);
+  getch();
+ }
